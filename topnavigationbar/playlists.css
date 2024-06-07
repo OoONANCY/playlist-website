@@ -1,0 +1,31 @@
+.playlist-cards{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 15px;
+  margin-top: 30px;
+}
+.img{
+  display: inline-block;
+  width: 325px;
+  vertical-align: top;
+  margin-top: 0px;
+}
+.title{
+  color: white;
+  font-size: larger;
+}
+.info{
+  color: white;
+  font-size: smaller;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+p{
+  width: 325px;
+}
+.playlist-title{
+  margin-top: 50px;
+  margin-left: 450px;
+  margin-bottom: 0px;
+  width: 500px
+}

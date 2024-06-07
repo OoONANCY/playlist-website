@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Riff</title>
+    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="rightside.css">
+    <link rel="stylesheet" href="leftside.css">
+    <link rel="stylesheet" href="playlists.css">
+    <link rel="stylesheet" href="followbtn.css">
+    <link rel="stylesheet" href="recommended.css">
+    <link rel="stylesheet" href="searchbar.css">
+    <link rel="stylesheet" href="review.css">
+    <link rel="stylesheet" href="userreviews.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+
+
+  <body style="background-color: rgb(0, 0, 0);">
+   <nav>
+    <ul>
+      <div class="navbar">
+        <div>
+          <a href="#home"> <img class="img1" src="designs/logo.png"></a>
+        </div>
+        <div><a href="#featured"><button class="nav-btn">Featured</button></a></div>
+        <div><a href="#recommended"><button class="nav-btn">Recommended</button></a></div>
+        <div><a href="#reviews"><button class="nav-btn">Reviews</button></a></div>
+        <div><a href="#socials"><button class="nav-btn">Socials</button></a></div>
+        <div><a href="https://www.youtube.com/watch?v=OFt_jHnhE2k" target="_blank"><button class="nav-btn">Policy</button></a></div>
+      </div>
+    </ul>
+  </nav>
+
+
+
+
+
+  <section id="home">
+    <div class="home-section">
+      <div class="left-side">
+        <object class="svgimg" type="image/svg+xml" data="svgimage.svg"></object>
+      </div>
+      <div class="right-side">
+       <h1 class="line1">RIFF</h1> 
+       <p class="line2">Tune Into the New Wave!</p>
+       <p class="line3">Harmonize Your World with Every Note</p>
+       <a href="#featured"><button class="click">Explore our Featured Playlists</button></a>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+  <section id="featured">
+    <div class="playlists">
+      <img src="playlistimages/playlist.png" class="playlist-title">
+    </div>
+    <div class="playlist-cards">
+      <div class="p1">
+        <div>
+          <img class="img" src="playlistimages/img1.png">
+        </div>
+        <div style="position: absolute; color: white; top: 970px; left: 270px; background-color: rgba(188, 187, 187, 0.218);">
+          15 songs
+        </div>
+        <div>
+          <p class="title">
+            coming of age
+          </p>
+          <p class="info">
+            perfect songs that will make you feel like you’re in a coming of age film
+          </p>
+          <input type="checkbox" id="followCheckbox1" class="invisible-checkbox1">
+          <label for="followCheckbox1" id="followButton1">
+            <t class="btn1">Follow</t>
+            <t class="btn2">Following</t>
+          </label>
+
+        </div>
+      </div>
+
+
+      <div class="p1">
+        <div>
+          <img class="img" src="playlistimages/img2.png">
+        </div>
+        <div style="position: absolute; color: white; top: 970px; left: 630px; background-color: rgba(188, 187, 187, 0.218);">
+          21 songs
+        </div>
+        <div>
+          <p class="title">
+            Piano Covers
+          </p>
+          <p class="info">
+            Relaxing piano covers of contemporary pop songs.
+          </p>
+          <input type="checkbox" id="followCheckbox2" class="invisible-checkbox2">
+          <label for="followCheckbox2" id="followButton2">
+            <t class="btn3">Follow</t>
+            <t class="btn4">Following</t>
+          </label>
+        </div>
+      </div>
+
+
+      <div class="p1">
+        <div>
+          <img class="img" src="playlistimages/img3.png">
+        </div>
+        <div style="position: absolute; color: white; top: 970px; left: 1000px; background-color: rgba(188, 187, 187, 0.218);">
+          17 songs
+        </div>
+        <div>
+          <p class="title">
+            sadstation
+          </p>
+          <p class="info">
+            The playlist includes a collection of melancholic and emotional tracks from various artists around the world.
+          </p>
+          <input type="checkbox" id="followCheckbox3" class="invisible-checkbox3">
+          <label for="followCheckbox3" id="followButton3">
+            <t class="btn5">Follow</t>
+            <t class="btn6">Following</t>
+          </label>
+        </div>
+      </div>
+
+
+      <div class="p1">
+        <div>
+          <img class="img" src="playlistimages/img4.png">
+        </div>
+        <div style="position: absolute; color: white; top: 970px; left: 1360px; background-color: rgba(188, 187, 187, 0.218);">
+          49 songs
+        </div>
+        <div>
+          <p class="title">
+            off to the races vibes
+          </p>
+          <p class="info">
+            leather on my waist is tight and i am falling down
+          </p>
+          <input type="checkbox" id="followCheckbox4" class="invisible-checkbox4">
+          <label for="followCheckbox4" id="followButton4">
+            <t class="btn7">Follow</t>
+            <t class="btn8">Following</t>
+          </label>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+
+  <section id="recommended">
+    <div class="recommendedtitle">
+      <img src="playlistimages/recommended.png" class="recommended-img">
+    </div>
+    <div class="search">
+      <div><input type="text" class="searchbar" placeholder="Discover your next favorite track"></div>
+      <div><img src="playlistimages/search-icon.png" class="search-icon"></div>
+    </div>
+    <div class="recommended-cards">
+      <div class="r1">
+        <div>
+          <img class="img-recommended" src="playlistimages/img5.png">
+        </div>
+        <div>
+          <p class="recommended-title">
+            Graduation
+          </p>
+          <p class="artist-name">Kanye West</p>
+          <p class="recommended-info">
+            2007 &#183 14 songs, 54 min 29 sec
+          </p>
+          <button class="know-more-button1">Know More</button>
+
+        </div>
+      </div>
+
+
+      <div class="r2">
+        <div>
+          <img class="img-recommended" src="playlistimages/img6.png">
+        </div>
+        <div>
+          <p class="recommended-title">
+            Man On The Moon |||
+          </p>
+          <p class="artist-name">Kid Cudi</p>
+          <p class="recommended-info">
+            2020 &#183 18 songs, 58 min 24 sec
+          </p>
+          <button class="know-more-button2">Know More</button>
+          
+        </div>
+      </div>
+
+
+      <div class="r3">
+        <div>
+          <img class="img-recommended" src="playlistimages/img7.png">
+        </div>
+        <div>
+          <p class="recommended-title">
+            Hexed
+          </p>
+          <p class="artist-name">Children Of Bodom</p>
+          <p class="recommended-info">
+            2019 &#183 14 songs, 58 min 49 sec
+          </p>
+          <button class="know-more-button3">Know More</button>
+          
+        </div>
+      </div>
+
+      <div class="r4">
+        <div>
+          <img class="img-recommended" src="playlistimages/img8.png">
+        </div>
+        <div>
+          <p class="recommended-title">
+            Currents
+          </p>
+          <p class="artist-name">Tame Impala</p>
+          <p class="recommended-info">
+            2015 &#183 13 songs, 51 min 11 sec
+          </p>
+          <button class="know-more-button4">Know More</button>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+
+  <section id="reviews">
+    <div class="review-title">
+      <img class="review-img" src="playlistimages/reviews.png">
+    </div>
+    <div class="review-content">
+      <div class="user-review">
+        <div class="user1">
+          <img class="user-img" src="playlistimages/img9.png">
+          <p class="rev-name">Lana Del Ray</p>
+          <p class="rev-review">Wow, this music playlist website is a game-changer! The personalized recommendations are spot-on, and I’ve discovered so many new artists. It’s like having a DJ who knows my taste perfectly.</p>
+        </div>
+        <div class="user2">
+          <img class="user-img" src="playlistimages/img10.png">
+          <p class="rev-name">Father Teresa</p>
+          <p class="rev-review">Kudos to the team behind this music platform! The sleek design, intuitive interface, and seamless integration with my devices make it my go-to for tunes. Plus, the curated playlists are pure gold</p>
+        </div>
+        <div class="user3">
+          <img class="user-img" src="playlistimages/img11.png">
+          <p class="rev-name">Zayn Malik</p>
+          <p class="rev-review">I’ve tried several music streaming services, but this one stands out. The ‘Know More’ feature on album cards is genius—it’s like having a backstage pass to the artists’ stories. Keep up the great work!</p>
+        </div>
+      </div>
+      <div class="review-form">
+        <p class="rev-form-text">Name:</p>
+        <input type="text" class="rev-form" placeholder="Enter your name">
+        <p class="rev-form-text">Email:</p>
+        <input type="text" class="rev-form" placeholder="Enter your email adress">
+        <p class="rev-form-text">Review:</p>
+        <input type="text" class="rev-form" placeholder="Enter your review">
+        <p>
+          <button class="rev-button">
+            Submit
+          </button>
+        </p>
+        
+      </div>
+    </div>
+  </section>
+
+
+
+  <section id="socials">
+    <p class="social-title">Join us on Social Media</p>
+   <div class="social-footer"> 
+    <div class="icons">
+      <div>
+        <img class="social-img" src="playlistimages/img12.png">
+        <p><a href="https://www.instagram.com/" target="_blank">Instagram</a></p>
+        
+      </div>
+      <div>
+        <img class="social-img" src="playlistimages/img13.png">
+        <p><a href="https://www.facebook.com/" target="_blank">Facebook</a></p>
+        
+      </div>
+      <div>
+        <img class="social-img"src="playlistimages/img14.png">
+        <p><a href="https://www.youtube.com/" target="_blank">Youtube</a></p>
+      
+      </div>
+      <div><img class="social-img"src="playlistimages/img15.png">
+        <p><a href="https://www.reddit.com/" target="_blank">Reddit</a></p>
+      
+      </div>
+     <div><img class="social-img" src="playlistimages/img16.png">
+      <p><a href="https://www.twitch.tv/" target="_blank">Twitch</a></p>
+      
+      
+    </div>
+    <div>
+      <p class="tnc"><a href="https://www.youtube.com/watch?v=OFt_jHnhE2k" target="_blank">Terms & conditions</a></p>
+      <p class="tnc"><a href="https://www.youtube.com/watch?v=B6ydkBUmgnE" target="_blank">Privacy Policy</a></p>
+      
+    </div>
+  </div>
+  
+  </section>
+
+
+
+  <section>
+    <div>
+      <a href="#home"><p class="btt">Back To Top</p></a>
+      
+    </div>
+  </section>
+
+
+  </body>
+</html>

@@ -1,0 +1,15 @@
+.svgimg{
+  height: 500px;
+  width: 500px;
+  margin-left: 0px;
+  right: 100px;
+  top: 155px;
+  left: 0px;
+
+
+}
+.left-side{
+  display: flex;
+  justify-content: left;
+  margin-left: 0px;
+}

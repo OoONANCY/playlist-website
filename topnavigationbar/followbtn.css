@@ -1,0 +1,106 @@
+#followButton1{
+  background: rgb(89, 44, 131);
+  border: none;
+  padding-top: 5px;
+  padding-bottom: 3px;
+  padding-left: 12px;
+  padding-right: 12px;
+  cursor: pointer;
+  width: 300px;
+  height: 30px;
+}
+
+#followCheckbox1:checked + #followButton1{
+  background: white;
+}
+
+.invisible-checkbox1{
+  display: none;
+}
+.btn1{
+  color: white;
+}
+.btn2{
+  color: rgb(89, 44, 131);
+}
+
+
+#followButton2{
+  background: rgb(89, 44, 131);
+  border: none;
+  padding-top: 5px;
+  padding-bottom: 3px;
+  padding-left: 12px;
+  padding-right: 12px;
+  cursor: pointer;
+  width: 300px;
+  height: 30px;
+}
+
+#followCheckbox2:checked + #followButton2{
+  background: white;
+}
+
+.invisible-checkbox2{
+  display: none;
+}
+.btn3{
+  color: white;
+}
+.btn4{
+  color: rgb(89, 44, 131);
+}
+
+
+#followButton3{
+  background: rgb(89, 44, 131);
+  border: none;
+  padding-top: 5px;
+  padding-bottom: 3px;
+  padding-left: 12px;
+  padding-right: 12px;
+  cursor: pointer;
+  width: 300px;
+  height: 30px;
+}
+
+#followCheckbox3:checked + #followButton3{
+  background: white;
+}
+
+.invisible-checkbox3{
+  display: none;
+}
+.btn5{
+  color: white;
+}
+.btn6{
+  color: rgb(89, 44, 131);
+}
+
+#followButton4{
+  background: rgb(89, 44, 131);
+  border: none;
+  padding-top: 5px;
+  padding-bottom: 3px;
+  padding-left: 12px;
+  padding-right: 12px;
+  cursor: pointer;
+  width: 300px;
+  height: 30px;
+}
+
+#followCheckbox4:checked + #followButton4{
+  background: white;
+}
+
+.invisible-checkbox4{
+  display: none;
+}
+.btn7{
+  color: white;
+}
+.btn8{
+  color: rgb(89, 44, 131);
+}
+

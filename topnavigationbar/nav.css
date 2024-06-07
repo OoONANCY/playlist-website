@@ -1,0 +1,45 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body{
+  height: 4000px;
+  padding-top: 120px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    background-color: rgb(126, 79, 166);
+    top: 2px;
+    right: 2px;
+    left: 2px;
+    height: 40px;
+    padding: 4px;
+    padding-right: 10px;
+    z-index: 1000;
+}
+.img1{
+  height: 40px;
+  padding-left: 20px;
+}
+.nav-btn{
+  background-color: rgb(126, 79, 166);
+    color: black;
+    font-weight: bold;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-right: 8px;
+    transition: opacity 0.15s;
+}
+.nav-btn:hover{
+  opacity: 0.8;
+}
+.nav-btn:active{
+  opacity: 0.5;
+}

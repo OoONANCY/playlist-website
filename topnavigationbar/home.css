@@ -1,0 +1,8 @@
+.home-section{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  width: 1425px;
+  background-color: rgb(81, 32, 155);
+  vertical-align: middle;
+}
